@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "public": "docs/.vitepress/dist",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "cleanUrls": true
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "runtime": "nodejs22",
+      "ignore": ["node_modules", ".git", "firebase-debug.log", "*.local"]
+    }
+  ]
+}

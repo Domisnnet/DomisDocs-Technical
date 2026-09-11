@@ -1,0 +1,94 @@
+PRIVATE COMMERCIAL LICENSE — Versão 1.2 — Atualizada: agosto/2026
+Copyright © 2026 Dominique Marcelino Gonçalves / Domisnnet
+Todos os direitos reservados.
+
+LICENCIANTE
+
+Dominique Marcelino Gonçalves (“DomisDev / Domisnnet”)
+Pessoa Física — Rua Pascoal Donhate, 100 — Bairro Nova Jacareí
+CEP 12.325-040 • Jacareí / SP • Brasil
+Contato: dominique.goncalves61@gmail.com • (12) 9 8104-9878
+Identificação fiscal completa mediante confirmação de compra ou relação contratual formalizada
+Idioma oficial: Português-BR — prevalece sobre qualquer tradução
+Lei aplicável & Foro Exclusivo: República Federativa do Brasil • Comarca Jacareí-SP
+
+AVISO DE COMPONENTES DE TERCEIROS SOB MIT
+
+Este software utiliza bibliotecas de terceiros sob licença MIT (ex: prompts, 
+degit, create-*). O texto MIT abaixo refere-se EXCLUSIVAMENTE a essas 
+bibliotecas, mantendo seus respectivos copyrights. 
+
+O código proprietário do CLI Domis, incluindo a lógica que aciona as 3 opções
+(grátis, DomisDocs Lite e DomisDocs Pro) via `npm create domis@latest`,
+validação via verificar.html e autenticação por PRO_KEY, NÃO é MIT e é 
+regido integralmente por esta Licença Private Commercial.
+
+--- INÍCIO MIT DE TERCEIROS ---
+MIT License
+
+Copyright (c) - respective third-party authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+--- FIM MIT DE TERCEIROS ---
+
+SEÇÃO PRINCIPAL - PRIVATE COMMERCIAL - VÁLIDA PARA CLI + PACKS
+
+Escopo: npm create domis@latest, /src/cli, /bin, verificar.html, firebase.json,
+apphosting.yaml, firestore.rules, storage.rules, functions/, .github/,
+templates/, meu-app/, src/app/, src/lib/ e toda Versão Adquirida.
+
+## 1. DEFINIÇÕES
+1.1 “Software”: todo conteúdo original no repositório “DomisPacks-Technical” 
+— código-fonte do CLI (incluindo lógica de acionamento das 3 opções: grátis, 
+Lite e Pro e validação PRO_KEY), binários, configurações, Firebase/Firestore regras, 
+fluxos CI, modelos, trechos, docs, metadados e atualizações recebidas durante seu período de acesso;
+1.2 “PRO_KEY”: credencial individual de acesso — 1 chave = 1 desenvolvedor autorizado 
+— libera Lite ou Pro conforme compra na Kiwify;
+1.3 “Período de Acesso Estendido”: 6 (seis) meses corridos contados da confirmação de pagamento 
+— vale para recebimento de novidades, repositório privado vivo, suporte e correções;
+1.4 “Versão Adquirida”: todo conteúdo efetivamente disponibilizado e recebido até expiração ou rescisão — mantém-se sempre seu conforme uso permitido aqui.
+
+## 2. ACEITE, CONCESSÃO & PRAZOS
+2.1 Ao rodar `npm create domis@latest`, acessar verificar.html ou usar qualquer pack → aceita integralmente estes termos; sem aceitação interrompa e remova tudo;
+2.2 LICENÇA: Mundial • Não-exclusiva • Intransferível • Não-sublicenciável — enquanto cumprir termos:
+ ✅ DIREITO DE USO → VITALÍCIO / PERPÉTUO: sobre “Versão Adquirida” — nunca expira, nunca bloqueia funcionamento;
+ ⏳ ACESSO / ATUALIZAÇÕES / SUPORTE → 6 MESES INCLUSOS: repositório privado, novas versões, correções, ajustes, melhorias e atendimento técnico só mantêm-se ativos neste prazo — renovar/contratar separadamente depois se quiser continuar recebendo evoluções;
+2.3 O que pode fazer:
+ a) Copiar, estudar, modificar, integrar ilimitadamente;
+ b) Produzir, vender, entregar soluções finais — desde que Software/base NÃO fique independente/exposto/reutilizável por terceiros;
+ c) Sem limite quantidade projetos/clientes;
+2.4 Direitos não mencionados ficam TOTALMENTE RESERVADOS (Arts 29+ Lei 9.610/98).
+
+## 3. RESTRIÇÕES EXPRESSAS — SALVO AUTORIZAÇÃO ESCRITA MINHA:
+❌ 3.1 Revender, publicar, compartilhar integral/parcialmente — nem “como base”, biblioteca, modelo, curso ou referência;
+❌ 3.2 Reempacotar, renomear ou lançar produtos funcionalmente iguais ou concorrentes que acionem as 3 opções (grátis/Lite/Pro);
+❌ 3.3 Remover/alterar marca, aviso autoria ou direitos, ou burlar/alterar verificação PRO_KEY / verificar.html;
+❌ 3.4 Compartilhar PRO_KEY, conta ou acesso — equipes pedem licenças separadas;
+❌ 3.5 Engenharia reversa do CLI e do acionamento das opções salvo lei obrigar — avise primeiro;
+❌ 3.6 Treinar IA/LLM usando estrutura, código ou documentação.
+
+## 4. PLANOS, GARANTIAS & LIMITE RESPONSABILIDADE
+4.1 Plano Lite: uso vitalício + docs + 6 meses atualizações; Plano Pro: tudo Lite + suporte técnico 7 dias corridos abertos dentro janela válida + ajustes liberados;
+4.2 “COMO ESTÁ”, SEM GARANTIAS implícitas/explícitas — adequação, continuidade ou resultados não prometidos além descrito;
+4.3 NÃO RESPONDO: lucros perdidos, danos indiretos, paralisações, recuperação valores acima do MENOR: pago últimos 12 meses OU R$ 150,00 — protege integralmente patrimônio pessoal;
+4.4 LGPD: dados mínimos só operação; ordem-judicial ou consentimento = nunca compartilho.
+
+## 5. QUEBRA / ENCERRAMENTO
+5.1 Violação sem correção ou impossível reparo → aviso até 15 dias úteis ou imediato risco grave: cancela acesso, revoga-chave, sem devoluções — mas NÃO apaga/impede uso “Versão Adquirida” que já integra projetos seus; mantêm sempre regras confidencialidade/autoria/limites indenização;
+5.2 Contrato completo — prevalece tudo escrito; mudanças valem só confirmação minha por escrito; parte inválida = resto continua firme; atualizações regras aplicam-se novas compras; antigas mantêm termo vigente dia aquisição.
