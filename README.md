@@ -1,6 +1,6 @@
-![GitHub repo size](https://img.shields.io/github/repo-size/Domisnnet/DomisDocs?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/Domisnnet/DomisDocs?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/Domisnnet/DomisDocs?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/Domisnnet/DomisDocs-Technical?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/Domisnnet/DomisDocs-Technical?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/Domisnnet/DomisDocs-Technical?style=for-the-badge)
 
 <h1 id="domisdocs">🚀 DomisDocs : Documentação Técnica + DomisPacks</h1>
 
@@ -10,8 +10,8 @@
 ![Tailwind V4](https://img.shields.io/badge/Tailwind-v4-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-Hosting-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-20.19%2B-339933?style=flat-square&logo=node.js&logoColor=white)
-[![Licença](https://img.shields.io/badge/License-Private_Commercial_v1.2-red.svg)](https://github.com/Domisnnet/DomisDocs/blob/main/LICENSE)
-![DomisDocs](https://raw.githubusercontent.com/Domisnnet/DomisDocs/main/docs/public/images/domisdocs.png)
+[![Licença](https://img.shields.io/badge/License-Private_Commercial_v1.2-red.svg)](https://github.com/Domisnnet/DomisDocs-Technical/blob/main/LICENSE)
+![DomisDocs](https://raw.githubusercontent.com/Domisnnet/DomisDocs-Technical/main/docs/public/images/domisdocs.png)
 
 > **Plataforma de Documentação Técnica + Vitrine SaaS.**
 > Este repositório é PÚBLICO e contém apenas a documentação gratuita e a vitrine dos produtos.
@@ -65,7 +65,7 @@ Esta plataforma resolve o deploy em 2 camadas isoladas:
 Para conhecer a Plataforma clique abaixo:
 
 <div align="left">
-  <a href="https://domisdocs-602fc.web.app/" target="_blank">
+  <a href="https://domisdocs-6a896.web.app/" target="_blank">
     <img alt="Botão Acessar" src="https://raw.githubusercontent.com/Domisnnet/DomisDocs/main/docs/public/images/bot%C3%A3o.webp" height="70" width="70" />
   </a>
 </div>
@@ -183,7 +183,7 @@ São: <code>Framework Packs</code> que sobem os pacotes em <code>Next.js 15 + Ta
 Explore a documentação no Repositório Oficial:
 
 ![VitePress](https://img.shields.io/badge/VitePress-Vue_3-4FC08D?style=for-the-badge&logo=vue.js&logoColor=fff)
-[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FDomisDocs-4FC08D?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Domisnnet/DomisDocs)
+[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FDomisDocs--Technical-4FC08D?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Domisnnet/DomisDocs-Technical)
 
 > **Packs Privados são acessados via:** &nbsp; `npm create domis@latest` **+ PRO_KEY.**
 
@@ -204,8 +204,8 @@ Explore a documentação no Repositório Oficial:
 <h2 id="licenca">11. 📄 Licença</h2>
 
 Este repositório público contém:
-*   **Documentação (/docs):** MIT
-*   **Packs (meu-app/ gerado via CLI):** &nbsp; [![Private Commercial](https://img.shields.io/badge/License-Private_Commercial_v1.2-red?style=flat-square)](https://github.com/Domisnnet/DomisDocs/blob/main/LICENSE)
+*   **Documentação  - /docs :** &nbsp;MIT
+*   **Packs - meu-app/ gerado via CLI :** &nbsp; [![Private Commercial](https://img.shields.io/badge/License-Private_Commercial_v1.2-red?style=flat-square)](https://github.com/Domisnnet/DomisDocs-Technical/blob/main/LICENSE)
 
 > **Uso pessoal, intransferível e não exclusivo.**
 > Pode usar em projetos próprios e de clientes.
