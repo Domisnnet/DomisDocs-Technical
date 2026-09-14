@@ -10,7 +10,7 @@
 ![Tailwind V4](https://img.shields.io/badge/Tailwind-v4-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-Hosting-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-20.19%2B-339933?style=flat-square&logo=node.js&logoColor=white)
-[![Licença](https://img.shields.io/badge/License-Private_Commercial_v1.2-red.svg)](https://github.com/Domisnnet/DomisDocs-Technical/blob/main/LICENSE)
+[![Licença](https://img.shields.io/badge/License-Private_Commercial_v1.3-red.svg)](https://github.com/Domisnnet/DomisDocs-Technical/blob/main/LICENSE)
 ![DomisDocs](https://raw.githubusercontent.com/Domisnnet/DomisDocs-Technical/main/docs/public/images/domisdocs.png)
 
 > **Plataforma de Documentação Técnica + Vitrine SaaS.**
@@ -206,7 +206,7 @@ Explore a documentação no Repositório Oficial:
 
 Este repositório público contém:
 *   **Documentação  - /docs :** &nbsp;MIT
-*   **Packs - meu-app/ gerado via CLI :** &nbsp; [![Private Commercial](https://img.shields.io/badge/License-Private_Commercial_v1.2-red?style=flat-square)](https://github.com/Domisnnet/DomisDocs-Technical/blob/main/LICENSE)
+*   **Packs - meu-app/ gerado via CLI :** &nbsp; [![Private Commercial](https://img.shields.io/badge/License-Private_Commercial_v1.3-red?style=flat-square)](https://github.com/Domisnnet/DomisDocs-Technical/blob/main/LICENSE)
 
 > **Uso pessoal, intransferível e não exclusivo.**
 > Pode usar em projetos próprios e de clientes.
