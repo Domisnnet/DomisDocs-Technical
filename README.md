@@ -66,7 +66,7 @@ Para conhecer a Plataforma clique abaixo:
 
 <div align="left">
   <a href="https://domisdocs-6a896.web.app/" target="_blank">
-    <img alt="Botão Acessar" src="https://raw.githubusercontent.com/Domisnnet/DomisDocs/main/docs/public/images/bot%C3%A3o.webp" height="70" width="70" />
+    <img alt="Botão Acessar" src="https://raw.githubusercontent.com/Domisnnet/DomisDocs-Technical/main/docs/public/images/botao.webp" height="70" width="70" />
   </a>
 </div>
 
@@ -143,8 +143,9 @@ firebase deploy --only hosting
 | **05** | **PR** | [![Abrir PR](https://img.shields.io/badge/-Abrir%20PR-green?style=flat-square&logo=git)](https://github.com/Domisnnet/DomisDocs-Technical/compare) |
 
 ### 🐛 Encontrou um problema?
-[![Issues Abertas](https://img.shields.io/github/issues/Domisnnet/DomisDocs-Thecnical?style=flat-square&color=red&logo=github)](https://github.com/Domisnnet/DomisDocs-Technical/issues)
+[![Issues Abertas](https://img.shields.io/github/issues/Domisnnet/DomisDocs-Technical?style=flat-square&color=red&logo=github)](https://github.com/Domisnnet/DomisDocs-Technical/issues)
 [![Reportar Erro](https://img.shields.io/badge/Reportar-Erro-critical?style=flat-square&logo=github)](https://github.com/Domisnnet/DomisDocs-Technical/issues/new)
+
 
 ---
 
@@ -222,7 +223,7 @@ Este repositório público contém:
 Quer saber mais sobre o **DomisDev?**
 
 <a href="https://github.com/Domisnnet">
-  <img src="https://raw.githubusercontent.com/Domisnnet/DomisDocs/main/docs/public/images/DomisDev.png" width="90" style="border-radius: 50%" alt="DomisDev GitHub">
+  <img src="https://raw.githubusercontent.com/Domisnnet/DomisDocs-Technical/main/docs/public/images/DomisDev.png" width="90" style="border-radius: 50%" alt="DomisDev GitHub">
 </a>
 
 &nbsp;
