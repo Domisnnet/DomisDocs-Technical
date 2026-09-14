@@ -1,7 +1,7 @@
 ﻿node_modules
 .firebase/
-.firebaserc
 firebase-debug.log
+firestore-debug.log
 .agents/
 skills-lock.json
 .muse/
