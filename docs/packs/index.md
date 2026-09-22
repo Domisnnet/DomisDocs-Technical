@@ -1,6 +1,6 @@
 ---
 title: Packs Premium - Vitrine Oficial
-description: Templates prontos para produção - Next.js 15 + Tailwind v4 + Lite R$49 e Pro R$197 - Entrega via DomisPacks-Technical
+description: Templates prontos para produção - Next.Js 15 + Tailwind v4 + Lite R$49 e Pro R$197
 outline: deep
 next:
   text: '🚀 DomisDocs Lite - R$49'
@@ -8,45 +8,48 @@ next:
 prev: false
 ---
 
-::: info 📦 VITRINE: DOMISDOCS - NEXT 15 + SAAS BOILERPLATE
-Loja oficial de templates de produção. Todos validados em clientes reais e entregues via repositório privado DomisPacks-Technical após pagamento na Kiwify. Stack: Next.js 15 + Tailwind v4 + shadcn/ui + Firebase Killer + Stripe.
+::: info 📦 VITRINE: DOMISDOCS - NEXT.JS 15 + SAAS BOILERPLATE
+Loja Oficial de templates de produção. Entrega direta via Firebase Storage com PRO_KEY. Stack: Next.Js 15 + Tailwind v4 + shadcn/ui + Firebase Killer + Functions v2 kiwifyWebhook, verifyProKey, ping.
 :::
 
-# 🛒 Packs Premium - Next.js 15 + SaaS Boilerplate
+# 🛒 Packs Premium - Next.Js 15 + SaaS Boilerplate
 
 > **Vitrine Pública:** `DomisDocs-Technical` - Documentação aberta com base Angular 20 + Firebase. Domínio domisdocs-602fc.web.app. Build docs/.vitepress/dist
-> **Entrega Privada:** `DomisPacks-Technical` - Repositório privado Next.js 15 + SaaS após pagamento
 
-Todos os packs são entregues via convite para o repositório privado Domisnnet/DomisPacks-Technical + PRO_KEY enviada por e-mail via Kiwify.
+## O que esta plataforma contém:
 
-## O que esta plataforma contém - Referência
+### 1. DomisDocs-Technical - Público:
 
-### 1. DomisDocs-Technical (Público)
-domisdocs-602fc.web.app - Documentação open da stack Angular 20 + Firebase Hosting + Functions Node 22. É aqui que está o docs/.vitepress/dist. Deploy --only hosting.
+- Documentação Open Source da stack Angular 20 + Firebase Hosting + Functions Node 22. 
 
-### 2. DomisPacks Premium (Privados DomisPacks-Lite e DomisPacks-Pro)
-Packs disponíveis em /packs/ na plataforma localhost:5173/packs/
+> É aqui que está o docs/.vitepress/dist. Deploy &nbsp;`--only hosting.`
 
-- Lite: Next 15 + Tailwind v4 + shadcn - base limpa para começar
-- Pro: Tudo do Lite + Stripe Checkout + Firebase Killer (Functions kiwifyWebhook, verifyProKey, ping) + liberação automática via Kiwify
+### 2. DomisPacks Premium - Entrega Direta via Storage:
 
-Esse repo DomisDocs-Technical faz deploy só de --only hosting. As Functions do Pro ficam no deploy --only functions.
+Packs disponíveis em `packs` na Plataforma:
 
-## Packs Disponíveis - Nova Stack
+- Lite: Next.Js 15 + SaaS Boilerplate - base limpa para começar
+
+- Pro: Tudo do Lite + Stripe Checkout + Firebase Killer 
+> Functions: &nbsp;`functions/index.js` , &nbsp;`onRequest` com &nbsp;`secrets["KIWIFY_WEBHOOK_TOKEN"]` , `safeEqual` com &nbsp;`timingSafeEqual` , `generateProKey() : DOMIS-XXXX-XXXX-XXXX` , `pro_keys` com &nbsp;`expires_at +6 meses` , `verifyProKey` com &nbsp;`?key=&pack=lite|pro` retornando `downloadUrl` com &nbsp;`firebaseStorageDownloadTokens` e &nbsp;`ping` + liberação automática via Kiwify.
+
+- Esse repo DomisDocs-Technical faz deploy só de `--only hosting` &nbsp;. As Functions de entrega ficam no deploy `--only functions`
+
+## Packs Disponíveis:
 
 ### 🚀 DomisDocs Lite - R$49
 
-**Next.js 15 Starter - Fix essencial + Starter Next.js 15 + Tailwind v4**
+**Next.Js 15 Starter - Fix essencial + Starter Next.Js 15 + Tailwind v4**
 
 Resolve:
 - Could not find public directory: dist/seu-app/browser
 - 404 on refresh nas rotas SPA
 - firebase.json corrigido + cache + rewrites
-- Next.js 15 + Tailwind v4 + shadcn/ui + Firebase Hosting Frameworks
+- Next.Js 15 + Tailwind v4 + shadcn/ui + Firebase Hosting Frameworks
 
-Ideal para: Subir projeto hoje em 5 minutos e já começar SaaS em Next.js 15.
+Ideal para: Subir projeto hoje em 5 minutos e já começar SaaS em Next.Js 15.
 
-Entrega: DomisPacks-Technical/templates/domisdocs-lite
+Entrega: &nbsp;`templates/domisdocs-lite.zip` via &nbsp;`verifyProKey` com &nbsp;`downloadUrl` direto do Storage.
 
 [📖 Ver Detalhes e Comprar Lite →](/packs/domisdocs-lite)
 
@@ -54,19 +57,20 @@ Entrega: DomisPacks-Technical/templates/domisdocs-lite
 
 ### 💎 DomisDocs Pro - R$197
 
-**SaaS Completo Next.js 15 - O que empresas cobram R$2.000**
+**SaaS Completo Next.Js 15 - O que empresas cobram R$2.000**
 
 Tudo do Lite +:
 - firestore.rules + storage.rules seguros (produção)
 - GitHub Actions - Auto Deploy (git push = deploy)
-- Cloud Functions SSR + Stripe Checkout + Kiwify Webhook kiwifyWebhook
+- Cloud Functions v2 Node 22: 
+> `kiwifyWebhook` com &nbsp;`safeEqual` , `verifyProKey` com &nbsp;`expired|inactive|upgrade_required` + &nbsp;`downloadUrl` via Storage Token , `ping`
 - Headers de Segurança HSTS, CSP
-- SaaS Boilerplate Next.js 15 + Tailwind v4 + Stripe + PRO_KEY Automática + Dashboard Premium
+- SaaS Boilerplate Next.Js 15 + Tailwind v4 + Stripe + PRO_KEY Automática + Dashboard Premium
 - Suporte Prioritário + Updates Vitalícios
 
 Ideal para: Projetos de clientes, produção real, SEO, SaaS com pagamento.
 
-Entrega: DomisPacks-Technical/packs/domisdocs-pro/
+> Entrega: &nbsp;`templates/domisdocs-pro.zip` via &nbsp;`verifyProKey?pack=pro` com download direto.
 
 [💎 Ver Detalhes do Pro →](/packs/domisdocs-pro)
 
@@ -76,42 +80,42 @@ Entrega: DomisPacks-Technical/packs/domisdocs-pro/
 | :--- | :---: | :--- |
 | Fix public directory + SPA Rewrite | ✅ | ✅ |
 | Cache 1 ano | ✅ | ✅ |
-| Next.js 15 + Tailwind v4 + shadcn | ✅ Starter | ✅ SaaS Completo |
+| Next.Js 15 + Tailwind v4 + shadcn | ✅ Starter | ✅ SaaS Completo |
 | firestore.rules + storage.rules seguro | ❌ | ✅ |
 | GitHub Actions CI/CD | ❌ | ✅ |
-| SSR + Stripe + Kiwify Webhook | ❌ | ✅ |
+| SSR + Functions v2 kiwifyWebhook, verifyProKey, ping + pro_keys | ❌ | ✅ |
 | Headers Segurança | ❌ | ✅ |
 | Dashboard SaaS Premium | ❌ | ✅ |
 
-## Como funciona a entrega - Documentação
+## Como funciona a entrega:
 
 ```
-1. Você paga na Kiwify (PIX ou Cartão)
+1. Você paga na Kiwify - PIX ou Cartão
    ↓
 2. Recebe por e-mail sua PRO_KEY
    ↓
-3. Recebe convite GitHub para: Domisnnet/DomisPacks-Technical - REPOSITÓRIO PRIVADO
-   ↓
-4. Instala via CLI:
-   npm create domis@latest
+3. Instala via CLI:
+   npm create domis@latest   
 ```
 
-### Dúvidas sobre os repositórios
+### Dúvidas Frequentes:
 
-- DomisDocs-Technical: Documentação Pública, Guias gratuitos, Vitrine (este site). Fica em github.com/Domisnnet/DomisDocs-Technical - Build docs/.vitepress/dist - Deploy --only hosting
-- DomisPacks-Technical: Templates pagos Next.js 15 + SaaS, Código privado, firebase.json otimizados + kiwifyWebhook, verifyProKey, ping. Só entra quem comprou. Fica em github.com/Domisnnet/DomisPacks-Technical - privado - Deploy --only functions
+- DomisDocs-Technical: Documentação Pública, Guias gratuitos, Vitrine - este site. Fica em: 
+> github.com/Domisnnet/DomisDocs-Technical - Build docs/.vitepress/dist - Deploy --only hosting
+- Entrega atual é direta via Firebase Storage: 
+> `templates` + Firestore `pro_keys` + Functions `kiwifyWebhook, verifyProKey, ping`
 
-## Mapa de Recursos da Plataforma - 6 módulos
+## Mapa de Recursos da Plataforma:
 
 | Módulo | Documenta |
 | :--- | :--- |
 | Deploy Angular 20 + Firebase | Guia completo do zero ao publicado - build, rotas SPA, rewrites e checklist de produção |
 | SaaS Next 15 + Tailwind v4 | Boilerplate com App Router, shadcn/ui, Tailwind v4 e estrutura pronta para SaaS |
-| Stripe Checkout Pronto | Integração de pagamento, webhooks e liberação automática de acesso Pro |
-| Bônus Firebase Killer | Hosting + Functions + Firestore - arquitetura que substitui backend caro |
-| Automação Kiwify + GitHub | Webhook kiwifyWebhook gera PRO_KEY e convida automaticamente para repo privado DomisPacks-Pro |
-| Troubleshooting e Boas Práticas | Erros reais de deploy (public, functions timeout, Node 22) resolvidos e documentados |
+| Stripe Checkout Pronto | Integração de pagamento, webhooks e liberação automática de acesso Pro via pro_keys |
+| Bônus Firebase Killer | Hosting + Functions v2 + Firestore pro_keys + Storage templates/ com firebaseStorageDownloadTokens |
+| Automação Kiwify + CLI | Webhook kiwifyWebhook gera PRO_KEY DOMIS-XXXX-XXXX-XXXX com crypto.randomBytes(6) + expires_at +6 meses e libera download via verifyProKey |
+| Troubleshooting e Boas Práticas | Erros reais de deploy (public, functions timeout, Node 22) resolvidos e documentados + verifyProKey com upgrade_required |
 
 ## 🛡 Garantia
 
-Todos os packs têm **7 dias de garantia incondicional** via Kiwify. Não funcionou? Reembolso total.
+Todos os packs têm **7 dias de garantia incondicional** via Kiwify.
