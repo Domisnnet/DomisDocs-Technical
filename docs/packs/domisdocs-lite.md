@@ -1,50 +1,52 @@
 ---
-title: DomisDocs Lite - R$49 - Next.js 15 Starter
-description: Boilerplate Next.js 15 + Tailwind v4 + shadcn + Firebase Killer + Fix Angular 17-20. Entrega via repo privado DomisPacks-Technical
+title: DomisDocs Lite - Next.Js 15 Starter
+description: Boilerplate Next.Js 15 + SaaS Boilerplate
 next:
-  text: "💎 DomisDocs Pro - R$197"
+  text: "💎 DomisDocs Pro - &nbsp;R$197"
   link: "/packs/domisdocs-pro"
 prev:
-  text: "Vitrine - Todos os Packs"
+  text: "Vitrine - &nbsp;Todos os Packs"
   link: "/packs/"
 ---
 
-::: info 🚀 LITE - R$49 | NEXT.JS 15 STARTER | REPO PRIVADO DomisPacks-Technical
-Boilerplate Next.js 15 + Tailwind v4 + shadcn/ui + Firebase Killer. Inclui como bônus o fix definitivo para deploy Angular 17-20 no Firebase Hosting.
+::: info 🚀 LITE: NEXT.JS 15 STARTER → &nbsp;ENTREGA DIRETA VIA PRO_KEY
+> Boilerplate Next.Js 15 + Tailwind v4 + shadcn/ui + Firebase Hosting Frameworks. 
+>
+> Deploy otimizado em 5 minutos.
 :::
+&nbsp;
 
 # 🚀 DomisDocs Lite - R$49
 
-> Fix em 5 minutos para `Could not find public directory` + 404 SPA + Starter Next.js 15 pronto.
+- Fix em 5 minutos para `Could not find public directory` + 404 SPA + Starter Next.Js 15 pronto.
 
-## Repositórios - Referência
+## Referências:
 
-**Vitrine Pública:** `DomisDocs-Technical` - Documentação aberta em domisdocs-602fc.web.app
-**Entrega Privada:** `DomisPacks-Technical` - Repositório privado após pagamento na Kiwify
+> **Vitrine Pública:** &nbsp;`DomisDocs-Technical` - Documentação Open Source.
+>
+> **Entrega:** Direta via PRO_KEY + &nbsp;`npm create domis@latest` após pagamento na Kiwify.
 
-## O que esta página documenta
+## O que esta página documenta?
 
-Esta página documenta o Pack Lite disponível em `packs` na plataforma.
+- Esta página documenta o Pack Lite disponível em `packs` na Plataforma:
 
-### Stack do Lite
+### Stack do Lite:
 
-- Next.js 15 + App Router + Turbopack
+- Next.Js 15 + App Router + Turbopack
 - Tailwind CSS v4 + shadcn/ui
-- Firebase Hosting Frameworks + firebase.json killer
-- firestore.rules básica
-- Bônus: firebase.json corrigido para Angular 17-20
+- Firebase Hosting Frameworks + firebase.json otimizado
+- rewrites SPA + headers otimizados
 
-### O que vem no Lite
+### O que vem no Lite:
 
 ```
-DomisPacks-Technical/templates/domisdocs-lite/
-├── firebase.json -> public: dist/browser + rewrites + cache 1 ano
-├── .firebaserc
-├── firestore.rules -> básica validada
-├── next.config.js -> otimizado Firebase
-├── tailwind.config.ts -> v4 configurado
-└── src/
-    └── lib/firebase.ts
+templates/domisdocs-lite/
+├── firebase.json  → public: dist/browser + rewrites + headers
+├── .firebaserc  → básica validada
+├── firestore.rules  → básica validada
+├── next.config.Js  → otimizado Firebase
+├── postcss.config.mjs  → v4 configurado
+└── lib/utils.ts
 ```
 
 ### firebase.json de referência
@@ -52,7 +54,7 @@ DomisPacks-Technical/templates/domisdocs-lite/
 ```json
 {
   "hosting": {
-    "public": "dist/domisdocs/browser",
+    "source": ".",
     "ignore": [
       "firebase.json", 
       "**/.*", 
@@ -75,7 +77,7 @@ DomisPacks-Technical/templates/domisdocs-lite/
 
 Resolve:
 
-- Error: Could not find public directory: dist/seu-app/browser
+- Error: Could not find public directory
 - Error: 404 on refresh - página não encontrada ao dar F5
 
 ## Instalação - Referência Documental
@@ -83,25 +85,17 @@ Resolve:
 Fluxo Oficial:
 
 1. Paga na Kiwify - Recebe PRO_KEY por e-mail
-2. Aceita convite GitHub - Domisnnet invited you to DomisPacks-Technical
-3. Instala Via CLI :
+2. Instala Via CLI :
 
 ```bash
 npm create domis@latest
-  🔥 DomisPacks Technical v1.0.24
+  🔥 DomisDocs CLI v1.0.37
   ? Qual pack você quer acelerar hoje?
-  > 🔥 DomisDocs Lite — Next.js 15 + Tailwind v4 + Firebase Killer
+  > 🔥 DomisDocs Lite — Next.Js 15 + Tailwind v4 + Firebase
   ? Digite sua PRO_KEY: ********************
 ```
 
-4. Faz o Deploy :
-
-```bash
-ng build
-firebase deploy --only hosting
-```
-
-Ou para Next.Js 15 :
+3. Faz o Deploy :
 
 ```bash
 npm run build
@@ -110,36 +104,34 @@ firebase deploy --only hosting
 
 ## FAQ - Lite
 
-::: details Funciona no Angular 20?
-Sim. Validado em Angular 17, 18, 19 e 20 com application builder e browser folder. O firebase.json já aponta para dist/seu-app/browser.
+::: details Funciona no Next.Js 15 com App Router?
+Sim. Validado no Next.Js 15 com App Router + Turbopack. O firebase.json já vem otimizado para Firebase Hosting Frameworks.
 :::
 
-::: details Preciso ter o DomisPacks-Technical antes?
-Não. Você paga na Kiwify e recebe convite automático para o repositório privado Domisnnet/DomisPacks-Technical + PRO_KEY.
+::: details Como recebo o acesso?
+Você paga na Kiwify e recebe sua PRO_KEY por e-mail na hora. Depois é só rodar `npm create domis@latest` e digitar a key.
 :::
 
 ::: details O que acontece depois que eu pagar?
-
 1. Kiwify envia PRO_KEY na hora
-2. GitHub envia convite para repo privado
-3. Você clona com GH_TOKEN
+2. Você roda `npm create domis@latest`
+3. Digita a PRO_KEY e o template é baixado
 :::
 
 ::: details Qual a diferença para o Pro?
-Lite = Next.js 15 Starter + fix deploy (firebase.json + rewrites). Pro = Lite + firestore.rules + storage.rules + CI/CD + SSR + Stripe + Kiwify Webhook + Dashboard SaaS.
+Lite = Next.Js 15 Starter + deploy otimizado (firebase.json + rewrites). Pro = Lite + firestore.rules + storage.rules + CI/CD + Stripe + Kiwify Webhook + Dashboard SaaS.
 :::
 
 ## Comparativo
 
-| Recurso                           | Lite R$49        |
-| :-------------------------------- | :--------------- |
-| Fix public directory + 404 SPA    | ✅               |
-| Cache 1 ano + Compressão          | ✅               |
-| Next.js 15 + Tailwind v4 + shadcn | ✅ Starter       |
-| firestore.rules seguro            | ❌ básica apenas |
-| storage.rules                     | ❌               |
-| GitHub Actions                    | ❌               |
-| Functions SSR + Stripe            | ❌               |
+| Recurso                               | Lite R$49         |
+| :------------------------------------ | :---------------- |
+| Fix public directory + 404 SPA        | ✅               |
+| Next.Js 15 + Tailwind v4 + shadcn/ui  | ✅ Starter       |
+| firestore.rules seguro                | ❌               |
+| storage.rules                         | ❌               |
+| GitHub Actions                        | ❌               |
+| Functions + Stripe                    | ❌               |
 
 ## 💬 O que quem comprou está dizendo
 
@@ -186,7 +178,7 @@ Lite = Next.js 15 Starter + fix deploy (firebase.json + rewrites). Pro = Lite + 
         font-style: italic; 
         color: #e5e7eb;"
       >
-        "Tava há 2 dias travado no erro &nbsp;<code>Could not find public directory</code> nbsp; no Next.Js 15. Tentei de tudo no Stack Overflow. Comprei o Lite por R$49 achandoque era  gambiarra,     mas é o <code>firebase.json</code> certo mesmo. Copiei, deicode>ng build</<code> e   <code>firebase    deploy --only hosting</code> e subiu deprimeira. Valeu cada centavo."
+        "Tava há 2 dias travado no erro <code>Could not find public directory</code> no Next.Js 15. Tentei de tudo no Stack Overflow. Comprei o Lite por R$49 achando que era gambiarra, mas é o <code>firebase.json</code> certo mesmo. Copiei, dei <code>npm run build</code> e <code>firebase deploy --only hosting</code> e subiu de primeira. Valeu cada centavo."
       </p>
       <div style="
         display: flex; 
@@ -199,8 +191,6 @@ Lite = Next.js 15 Starter + fix deploy (firebase.json + rewrites). Pro = Lite + 
         <span>✅ Compra verificada na Kiwify</span>
         <span>·</span>
         <span>📅 Há 3 dias</span>
-        <span>·</span>
-        <span style="color: #26FF00;">🚀 DomisPacks-Technical</span>
       </div>
     </div>
   </div>
@@ -228,15 +218,15 @@ Lite = Next.js 15 Starter + fix deploy (firebase.json + rewrites). Pro = Lite + 
     font-size: 16px; 
     font-weight: 700; 
     margin: 8px 0;"
-  > Fix Next.js 15 + Tailwind v4 + shadcn em 5 minutos</p>
+  > Fix Next.Js 15 + Tailwind v4 + shadcn em 5 minutos</p>
   <p style="
     color: #e5e7eb !important; 
     font-size: 14px; 
     margin: 12px 0;"
   >
-    ✅ CLI <code>npm create domis@latest</code> + Repo Privado<br/>
-    ✅ 6 meses de updates + Uso VITALÍCIO<br/>
-    ✅ Licença Comercial Privada v1.2
+    ✅ CLI <code>npm create domis@latest</code> + PRO_KEY<br/>
+    ✅ 6 meses de updates<br/>
+    ✅ Licença Comercial Privada v1.03
   </p>
   <a href="https://pay.kiwify.com.br/heAmetM" target="_blank" style="
     display: inline-block; 
@@ -250,26 +240,20 @@ Lite = Next.js 15 Starter + fix deploy (firebase.json + rewrites). Pro = Lite + 
     text-decoration: none; 
     box-shadow: 0 4px 16px rgba(255,215,0,0.4);"
   > 🚀 QUERO MEU ACESSO AGORA - R$49</a>
-  <div style="margin-top: 12px;">
-    <a href="https://kiwify.app/L2NNYK8" target="_blank" style="
-      color: #9ca3af !important; 
-      font-size: 13px; 
-      text-decoration: underline;"
-    > Ver página oficial de vendas</a>
-  </div>
   <p style="
     color: #26FF00 !important; 
     font-size: 12px; 
     margin-top: 16px; 
     font-weight: 700;"
-  > ⚡️ Entrega automática via PRO_KEY por e-mail após pagamento</p>
+  > ⚡ Entrega automática via PRO_KEY por e-mail após pagamento</p>
 </div>
 &nbsp;
 
 ::: tip Quer produção completa?
-Conheça o Pro R$197 com Rules + CI/CD + SSR + Stripe + Dashboard. Veja em [DomisDocs Pro →](/packs/domisdocs-pro)
+Conheça o Pro R$197 com Rules + CI/CD + Stripe + Dashboard. 
+> Veja em [DomisDocs Pro →](/packs/domisdocs-pro)
 :::
 
 ## 🛡 Garantia
 
-Todos os packs têm **7 dias de garantia incondicional** via Kiwify. Não funcionou? Reembolso total.
+> Todos os packs têm **7 dias de garantia incondicional** via Kiwify.

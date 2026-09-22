@@ -32,24 +32,6 @@ features:
       details: Erros reais de deploy (public, functions timeout, Node 22) resolvidos e documentados.
 ---
 
-<h2>DomisDocs: Documentação Técnica & SaaS.</h2>
-
-**1. DomisDocs-Technical - &nbsp;Público**
-
-> `domisdocs-602fc.web.app` - Documentação open da stack Angular 20 + Firebase Hosting + Functions (Node 22). É aqui que está o `docs/.vitepress/dist`.
-
-**2. DomisPacks Premium  -  &nbsp;Privados &nbsp;`DomisPacks-Lite` e &nbsp;`DomisPacks-Pro`**
-
-> **Lite:** Next 15 + Tailwind v4 + shadcn - base limpa para começar.
-> **Pro:** Tudo do Lite + Stripe Checkout + Firebase Killer - &nbsp;Functions &nbsp;`kiwifyWebhook`, `verifyProKey`, &nbsp;`ping` + liberação automática via Kiwify.
-
-<h3>Packs disponíveis em : &nbsp;<code>packs</code></h3>
-
-- **DomisDocs Firebase Lite:** Para quem quer o boilerplate Next 15 pronto.
-- **DomisDocs Firebase Pro:** Para quem quer vender SaaS com Stripe + Kiwify + PRO_KEY automática.
-
-> Esse repo &nbsp;`DomisDocs-Technical` &nbsp;faz deploy só de &nbsp;`--only hosting`. &nbsp;As Functions do Pro ficam no deploy &nbsp;`--only "functions"`.
-
 <style>
 :root {
   --vp-home-hero-name-color: transparent;
@@ -85,7 +67,7 @@ features:
 .VPHomeHero .VPButton.alt {
   background: #2D2D2D !important;
   color: #fff !important;
-  border: 1px solid #3a3a3a !important;
+  border: 2px solid #3a3a3a !important;
 }
 
 @media (max-width: 960px) {
