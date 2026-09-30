@@ -2,9 +2,9 @@
 title: Tecnologias Utilizadas
 ---
 
-# ⚙️ 4. Tecnologias Utilizadas
+<h1>⚙️ 4. Tecnologias Utilizadas:</h1>
 
-### Requisitos
+<h3>Requisitos:</h3>
 
 | Requisito | Recomendação |
 | :--- | :--- |
@@ -15,9 +15,9 @@ title: Tecnologias Utilizadas
 | Projeto Firebase | Criado no Console do Firebase |
 | Projeto Angular | Shadow-Flip-Angular (referência) |
 
-Para Angular 20, utilize uma versão do Node.js compatível com a versão específica do Angular 20 utilizada no projeto.
+> Para Angular 20, utilize uma versão do `Node.Js` compatível com a versão específica do `Angular 20` utilizada no projeto.
 
-### ✅ Verificar Versões
+<h3>✅ Verificar Versões:</h3>
 
 Verifique as ferramentas instaladas:
 
@@ -26,3 +26,4 @@ node --version
 npm --version
 ng version
 firebase --version
+```

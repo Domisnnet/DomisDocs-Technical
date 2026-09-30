@@ -2,24 +2,27 @@
 title: Login e Associação ao Firebase
 ---
 
-# 🔐 7. Login e Associação ao Firebase
+<h1>🔐 7. Login e Associação ao Firebase:</h1>
 
-### Autenticação
+<h2>Autenticação:</h2>
 
 Para Logar Execute:
+
 ```bash
 firebase login
 ```
+
 depois:
+
 ```bash
 firebase projects:list
 ```
 
-O navegador será aberto para autenticação com sua conta Google.
-
-Depois do login, liste os projetos disponíveis:
-
-O projeto criado no Firebase Console deverá aparecer na lista.
+> O navegador será aberto para autenticação com sua conta Google.
+>
+> Depois do login, liste os projetos disponíveis:
+>
+> O projeto criado no Firebase Console deverá aparecer na lista.
 
 Exemplo:
 
@@ -28,9 +31,9 @@ Project Display Name    Project ID
 shadow-angular          shadow-angular
 ```
 
-### 🔗 Associar projeto
+<h3>🔗 Associar projeto:</h3>
 
-Selecione shadow-angular e use alias default. Confirme com:
+> Selecione shadow-angular e use alias default. Confirme com:
 
 ```bash
 firebase use --add
@@ -38,39 +41,39 @@ firebase use --add
 
 ---
 
-### 📂 Entrar na pasta do projeto
+<h3>📂 Entrar na pasta do projeto:</h3>
 
 Navegue até a pasta raiz do projeto Angular.
 
-### Windows
+<h4>Windows:</h4>
 
 ```powershell
 cd "C:\Projects\Shadow-Flip-Angular"
 ```
 
-### macOS ou Linux
+<h4>macOS ou Linux:</h4>
 
 ```bash
 cd ~/Projects/Shadow-Flip-Angular
 ```
 
-Confirme se está na pasta correta.
+> Confirme se está na pasta correta.
 
-### Windows
+<h4>Windows:</h4>
 
 ```powershell
 dir
 ```
 
-### macOS ou Linux
+<h4>macOS ou Linux:</h4>
 
 ```bash
 ls
 ```
 
-A pasta deverá conter arquivos ou diretórios semelhantes a:
+> A pasta deverá conter arquivos ou diretórios semelhantes a:
 
-```text
+```bash
 angular.json
 package.json
 src/

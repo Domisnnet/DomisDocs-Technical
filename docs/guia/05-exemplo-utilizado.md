@@ -2,9 +2,9 @@
 title: Exemplo Utilizado
 ---
 
-# 🧪 5. Exemplo Utilizado
+<h1>🧪 5. Exemplo Utilizado:</h1>
 
-Dados do projeto de referência utilizado ao longo deste guia do **DomisDocs**:
+> Dados do projeto de referência utilizado ao longo deste guia do **DomisDocs**:
 
 | Item | Valor |
 | :--- | :--- |
@@ -16,4 +16,4 @@ Dados do projeto de referência utilizado ao longo deste guia do **DomisDocs**:
 Os nomes acima são utilizados como referência no tutorial.
 
 Substitua-os pelos nomes reais do seu projeto quando necessário.
-> 💡 Substitua os nomes de projeto, pasta e ID pelos do seu projeto quando for adaptar.
+> 💡 Substitua os nomes de projeto, pasta e `ID` pelos do seu projeto quando for adaptar.

@@ -13,19 +13,19 @@ prev:
 SaaS Boilerplate completo. Deploy seguro com regras validadas, CI/CD, SSR e Stripe Checkout. Inclui tudo do Lite + produção real.
 :::
 
-# 💎 DomisDocs Pro - R$197
+<h1>💎 DomisDocs Pro - R$197</h1>
 
 > Do `ng new` ao deploy em produção com regras seguras, CI/CD, SSR e Stripe. 
 >
 > O que empresas cobram R$2.000 para configurar.
 
-## Referências:
+<h2>Referências:</h2>
 
 > **Vitrine Pública:** `DomisDocs-Technical` - Documentação Open Source.
 >
 > **Entrega:** Direta via PRO_KEY + `npm create domis@latest` após pagamento na Kiwify.
 
-## Lite vs Pro - Referência Documental:
+<h2>Lite vs Pro - Referência Documental:</h2>
 
 | O que você precisa em produção | Lite R$49 | Pro R$197 |
 | :--- | :---: | :--- |
@@ -40,26 +40,25 @@ SaaS Boilerplate completo. Deploy seguro com regras validadas, CI/CD, SSR e Stri
 | Headers de Segurança HSTS, CSP | ❌ | ✅ |
 | Dashboard SaaS Premium | ❌ | ✅ |
 
-## O que vem no Pro:
+<h2>O que vem no Pro:</h2>
 
-```
+```bash
 templates/domisdocs-pro/
-├── firebase.json  → Firebase Killer Next.Js 15
-├── firestore.rules  → segura produção
-├── storage.rules  → segura produção
-├── .github/workflows/firebase-deploy.yml  → CI/CD auto
-├── functions/  → Node 22
-│   ├── src/index.ts  → kiwifyWebhook, verifyProKey, ping
-│   └── package.json
-└── src/
-    ├── app/dashboard/  → Painel Premium
-    ├── lib/
-    │   ├── firebase.ts
-    │   └── stripe.ts  → Stripe Checkout
-    └── components/ui/  → shadcn/ui
+├── src/
+│   ├── app/
+│   ├── components/
+│   ├── lib/
+│   └── assets/
+├── firebase.json → public: "out" + rewrites + headers
+├── .firebaserc  → básica validada
+├── firestore.rules  → básica validada
+├── next.config.ts  → otimizado Firebase
+├── postcss.config.mjs  → v4 configurado
+├── package.json
 ```
+> No Pack: Pro , são mais pastas disponíveis.
 
-### Dashboard:
+<h3>Dashboard:</h3>
 
 O Pro entrega o Dashboard SaaS com:
 - Sidebar: Visão Geral, Analytics, Projetos, Equipe, Assinatura, Configurações ,etc
@@ -67,40 +66,89 @@ O Pro entrega o Dashboard SaaS com:
 - Cards: Projetos Ativos, Segurança 100%, Componentes 48, Plano
 - Stack UI: Next.Js 15 + Tailwind v4 + lucide-react + shadcn/ui
 
-## Instalação:
+<h2>Instalação:</h2>
 
-Fluxo Oficial:
+<h3>Fluxo de Uso:</h3>
 
-1. Paga na Kiwify - Recebe PRO_KEY por e-mail
-2. Instala Via CLI :
+- Cliente roda :
 
 ```bash
 npm create domis@latest
-  🔥 DomisPacks Technical v1.0.24
-  ? Qual pack você quer acelerar hoje?
-  > 🔥 DomisDocs PRO — Next.Js 15 + Stripe + Rules + SSR + CI/CD
-  ? Digite sua PRO_KEY: ********************
 ```
 
-3. Faz o Deploy :
+<h3>CLI faz :</h3>
+
+```
+✔ DomisPacks Technical v1.0.52
+✔ Qual pack você quer acelerar hoje?
+```
+
+<h4>Você escolhe os Packs:</h4>
+
+```
+✔ 🔥 DomisDocs Lite — Next.Js 15 + SaaS
+```
+
+<h4>O CLI valida a key, baixa o ZIP e monta a pasta:</h4>
+
+- Cola a PRO_KEY
+- Define o nome do projeto
+
+> Ou:
+
+```
+✔ 🔥 DomisDocs PRO — Stripe + Rules
+```
+
+- Cola a PRO_KEY
+- Define o nome do projeto
+
+<h3>Depois:</h3>
+
+```
+✔ Baixando...
+```
+
+<h5>Crie um nome para o projeto</h5>
 
 ```bash
-npm run build
-firebase deploy --only hosting
-firebase deploy --only functions
+👉 cd + nome do projeto
 ```
 
-Ou tudo:
+<h5>Instale as dependências</h5>
 
 ```bash
-firebase deploy
+👉 npm install
+```
+<h5>Para testar localmente via Localhost: </h5>
+
+```bash
+👉 npm run dev
 ```
 
-## Regras Seguras - Documentação:
+<h5>Para fazer o Deploy do projeto</h5>
+
+```bash
+👉 firebase deploy --only hosting
+```
+
+<h5>Para fazer o Deploy das functions</h5>
+
+```bash
+👉 firebase deploy --only functions
+```
+
+> Ou tudo:
+
+```bash
+👉 firebase deploy
+```
+
+<h2>Regras Seguras - Documentação:</h2>
 
 O Pro segue Firebase Security Checklist Oficial:
 
-```
+```bash
 - Nenhum allow read, write: if true
 - request.auth != null em tudo privado
 - request.auth.uid == resource.data.ownerId
@@ -114,7 +162,7 @@ Teste local:
 firebase emulators:start --only firestore,storage
 ```
 
-## FAQ:
+<h2>FAQ:</h2>
 
 ::: details Preciso do Lite antes?
 Não. O Pro já inclui tudo do Lite. Lite é porta de entrada. Se vai para produção com cliente, vá direto de Pro.
@@ -132,7 +180,7 @@ Sim. Seguem checklist oficial Firebase. Nenhum if true. Teste com emulators ante
 Perfeito. O Pro não cria projeto novo, só injeta .rules e firebase.json otimizado. Roda firebase deploy e pronto.
 :::
 
-## 💬 Quem usa o Pro em produção diz :
+<h2>💬 Quem usa o Pro em produção diz:</h2>
 
 <div style="
   margin: 32px 0; 
@@ -178,7 +226,7 @@ Perfeito. O Pro não cria projeto novo, só injeta .rules e firebase.json otimiz
   </div>
 </div>
 
-## 💎 Comprar DomisDocs Pro - R$199
+<h2>💎 Comprar DomisDocs Pro - R$199</h2>
 
 <div style="
   margin: 24px 0; 
@@ -236,6 +284,6 @@ Perfeito. O Pro não cria projeto novo, só injeta .rules e firebase.json otimiz
 > Envie comprovante do Lite e ganhe cupom de R$49 OFF. Paga só a diferença para o Pro.
 :::
 
-## 🛡 Garantia
+<h2>🛡 Garantia</h2>
 
 > Todos os packs têm **7 dias de garantia incondicional** via Kiwify.

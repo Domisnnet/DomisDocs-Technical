@@ -10,64 +10,72 @@ prev:
 ---
 
 ::: info 🚀 LITE: NEXT.JS 15 STARTER → &nbsp;ENTREGA DIRETA VIA PRO_KEY
-> Boilerplate Next.Js 15 + Tailwind v4 + shadcn/ui + Firebase Hosting Frameworks. 
+> Next.Js 15 + SaaS Boilerplate. 
 >
 > Deploy otimizado em 5 minutos.
 :::
 &nbsp;
 
-# 🚀 DomisDocs Lite - R$49
+<h1>🚀 DomisDocs Lite - R$49</h1>
 
 - Fix em 5 minutos para `Could not find public directory` + 404 SPA + Starter Next.Js 15 pronto.
 
-## Referências:
+<h2>Referências:</h2>
 
 > **Vitrine Pública:** &nbsp;`DomisDocs-Technical` - Documentação Open Source.
 >
 > **Entrega:** Direta via PRO_KEY + &nbsp;`npm create domis@latest` após pagamento na Kiwify.
 
-## O que esta página documenta?
+<h2>O que esta página documenta?</h2>
 
 - Esta página documenta o Pack Lite disponível em `packs` na Plataforma:
 
-### Stack do Lite:
+<h3>Stack do Lite:</h3>
 
 - Next.Js 15 + App Router + Turbopack
 - Tailwind CSS v4 + shadcn/ui
 - Firebase Hosting Frameworks + firebase.json otimizado
 - rewrites SPA + headers otimizados
 
-### O que vem no Lite:
+<h3>O que vem no Lite:</h3>
 
-```
+```bash
 templates/domisdocs-lite/
-├── firebase.json  → public: dist/browser + rewrites + headers
+├── src/
+│   ├── app/
+│   ├── components/
+│   ├── lib/
+│   └── assets/
+├── firebase.json → public: "out" + rewrites + headers
 ├── .firebaserc  → básica validada
 ├── firestore.rules  → básica validada
-├── next.config.Js  → otimizado Firebase
+├── next.config.ts  → otimizado Firebase
 ├── postcss.config.mjs  → v4 configurado
-└── lib/utils.ts
+├── package.json
 ```
+> No Pack: Pro , são mais pastas disponíveis.
 
-### firebase.json de referência
+<h3>firebase.json de referência:</h3>
 
 ```json
 {
   "hosting": {
-    "source": ".",
-    "ignore": [
-      "firebase.json", 
-      "**/.*", 
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      { "source": "**", "destination": "/index.html" }
-    ],
+    "public": "out",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [{ "source": "**", "destination": "/index.html" }],
     "headers": [
       {
-        "source": "**/*.@(js|css)",
+        "source": "**/*.@(js|css|woff2|png|jpg|jpeg|gif|svg|webp|ico)",
+        "headers": [ 
+          { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" } 
+        ]
+      },
+      {
+        "source": "**",
         "headers": [
-          { "key": "Cache-Control", "value": "max-age=31536000" }
+          { "key": "X-Content-Type-Options", "value": "nosniff" },
+          { "key": "X-Frame-Options", "value": "DENY" },
+          { "key": "X-XSS-Protection", "value": "1; mode=block" }
         ]
       }
     ]
@@ -80,29 +88,73 @@ Resolve:
 - Error: Could not find public directory
 - Error: 404 on refresh - página não encontrada ao dar F5
 
-## Instalação - Referência Documental
+<h2>Instalação - Referência Documental:</h2>
 
-Fluxo Oficial:
+<h3>Fluxo de Uso:</h3>
 
-1. Paga na Kiwify - Recebe PRO_KEY por e-mail
-2. Instala Via CLI :
+- Cliente roda :
 
 ```bash
 npm create domis@latest
-  🔥 DomisDocs CLI v1.0.37
-  ? Qual pack você quer acelerar hoje?
-  > 🔥 DomisDocs Lite — Next.Js 15 + Tailwind v4 + Firebase
-  ? Digite sua PRO_KEY: ********************
 ```
 
-3. Faz o Deploy :
+<h3>CLI faz :</h3>
+
+```
+✔ DomisPacks Technical v1.0.52
+✔ Qual pack você quer acelerar hoje?
+```
+
+<h4>Você escolhe os Packs:</h4>
+
+```
+✔ 🔥 DomisDocs Lite — Next.Js 15 + SaaS
+```
+
+<h4>O CLI valida a key, baixa o ZIP e monta a pasta:</h4>
+
+- Cola a PRO_KEY
+- Define o nome do projeto
+
+> Ou:
+
+```
+✔ 🔥 DomisDocs PRO — Stripe + Rules
+```
+
+- Cola a PRO_KEY
+- Define o nome do projeto
+
+<h3>Depois:</h3>
+
+```
+✔ Baixando...
+```
+
+<h5>Crie um nome para o projeto</h5>
 
 ```bash
-npm run build
-firebase deploy --only hosting
+👉 cd + nome do projeto
 ```
 
-## FAQ - Lite
+<h5>Instale as dependências</h5>
+
+```bash
+👉 npm install
+```
+<h5>Para testar localmente via Localhost: </h5>
+
+```bash
+👉 npm run dev
+```
+
+<h5>Para fazer o Deploy do projeto</h5>
+
+```bash
+👉 firebase deploy --only hosting
+```
+
+<h2>FAQ - Lite</h2>
 
 ::: details Funciona no Next.Js 15 com App Router?
 Sim. Validado no Next.Js 15 com App Router + Turbopack. O firebase.json já vem otimizado para Firebase Hosting Frameworks.
@@ -122,7 +174,7 @@ Você paga na Kiwify e recebe sua PRO_KEY por e-mail na hora. Depois é só roda
 Lite = Next.Js 15 Starter + deploy otimizado (firebase.json + rewrites). Pro = Lite + firestore.rules + storage.rules + CI/CD + Stripe + Kiwify Webhook + Dashboard SaaS.
 :::
 
-## Comparativo
+<h2>Comparativo:</h2>
 
 | Recurso                               | Lite R$49         |
 | :------------------------------------ | :---------------- |
@@ -133,7 +185,7 @@ Lite = Next.Js 15 Starter + deploy otimizado (firebase.json + rewrites). Pro = L
 | GitHub Actions                        | ❌               |
 | Functions + Stripe                    | ❌               |
 
-## 💬 O que quem comprou está dizendo
+<h2>💬 O que quem comprou está dizendo:</h2>
 
 <div 
   style="margin: 32px 0; 
@@ -196,7 +248,7 @@ Lite = Next.Js 15 Starter + deploy otimizado (firebase.json + rewrites). Pro = L
   </div>
 </div>
 
-## 🛒 Comprar DomisDocs Lite - R$49
+<h2>🛒 Comprar DomisDocs Lite - R$49</h2>
 
 <div style="
   margin: 24px 0; 
@@ -254,6 +306,6 @@ Conheça o Pro R$197 com Rules + CI/CD + Stripe + Dashboard.
 > Veja em [DomisDocs Pro →](/packs/domisdocs-pro)
 :::
 
-## 🛡 Garantia
+<h2>🛡 Garantia</h2>
 
 > Todos os packs têm **7 dias de garantia incondicional** via Kiwify.

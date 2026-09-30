@@ -2,9 +2,9 @@
 title: Como Funciona
 ---
 
-# 🔄 3. Como Funciona
+<h1>🔄 3. Como Funciona?</h1>
 
-O Angular não publica diretamente os arquivos de `src/`. Primeiro, o projeto precisa ser compilado com:
+> O Angular não publica diretamente os arquivos de `src/`. Primeiro, o projeto precisa ser compilado com:
 
 ```bash
 ng build --configuration production
@@ -13,21 +13,21 @@ O build transforma o código TypeScript e demais recursos da aplicação em arqu
 
 O Firebase Hosting publica somente a pasta definida na propriedade `hosting.public` do arquivo `firebase.json`.
 
-### Fluxo
+<h3>Fluxo:</h3>
 
 ```text
 Código-fonte Angular
-        ↓
+  ↓
 ng build --configuration production
-        ↓
+  ↓
 Pasta dist/
-        ↓
+  ↓
 Localização do index.html
-        ↓
+  ↓
 firebase.json
-        ↓
+  ↓
 Firebase Hosting
-        ↓
+  ↓
 Aplicação publicada
 ```
 
@@ -45,4 +45,4 @@ ou, dependendo da configuração do projeto:
 dist/nome-do-projeto
 ```
 
-Por isso, **não presuma o caminho**. Sempre verifique onde o Angular realmente gerou o `index.html`.
+> Por isso, **não presuma o caminho**. Sempre verifique onde o Angular realmente gerou o `index.html`.

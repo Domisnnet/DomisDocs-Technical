@@ -2,7 +2,7 @@
 title: Instalar o Firebase CLI
 ---
 
-# 📦 6. Instalar o Firebase CLI
+<h1>📦 6. Instalar o Firebase CLI</h1>
 
 Abra o terminal integrado do VS Code e execute:
 No terminal:
@@ -25,6 +25,6 @@ Caso o problema persista, verifique o diretório global do npm:
 npm prefix -g
 ```
 
-* E se precisar , consulte a Documentação:
+- E se precisar , consulte a Documentação:
 
 [![Firebase CLI](https://img.shields.io/badge/Firebase%20CLI%20-%20Documentação%20Oficial-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/docs/cli)

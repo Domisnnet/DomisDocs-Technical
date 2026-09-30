@@ -2,31 +2,33 @@
 title: Build e Localização do index.html
 ---
 
-# 🏗️ 8. Build e Localização do `index.html`
+<h1>🏗️ 8. Build e Localização do <code>index.html</code></h1>
 
-### Gerar build de produção
+<h2>Gerar build de produção:</h2>
 
-Antes de configurar o diretório público do Hosting, gere o build da aplicação.
+> Antes de configurar o diretório público do Hosting, gere o build da aplicação.
 
 Execute:
 ```bash
 ng build --configuration production
 ```
 
-### 🔎 Descobrir caminho correto do index.html
+<h3>🔎 Descobrir caminho correto do <code>index.html</code></h3>
 
-Execute na raiz do projeto:
+- Execute na raiz do projeto:
+
+<h4>Windows:</h4>
 
 ```powershell
 Get-ChildItem . -Filter index.html -Recurse | Select-Object FullName
 ```
-macOS / Linux:
+<h4>macOS / Linux:</h4>
 
 ```bash
 find . -name "index.html"
 ```
 
-Exemplo:
+> Exemplo:
 
 ```text
 C:\Projects\Shadow-Flip-Angular\dist\shadow-flip-angular\browser\index.html

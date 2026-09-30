@@ -15,19 +15,20 @@ prev: false
 > Stack: &nbsp;Next.Js 15 + Tailwind v4 + shadcn/ui + Firebase.
 :::
 
-# 🛒 Packs Premium - Next.Js 15 + SaaS Boilerplate
+<h1>🛒 Packs Premium - Next.Js 15 + SaaS Boilerplate</h1>
 
 > **Vitrine Pública:** &nbsp;`DomisDocs-Technical` → Documentação aberta + Firebase. 
 
-## O que esta plataforma contém:
+<h2>O que esta plataforma contém:</h2>
 
-### 1. DomisDocs-Technical  - Público:
+<h3>1. DomisDocs-Technical  - Público:</h3>
 
 - Documentação Open Source + Firebase Hosting + Functions Node 22. 
 
 > É aqui que está o docs/.vitepress/dist. Deploy &nbsp;`--only hosting`
 
-### 2. DomisPacks Premium:
+<h3>2. DomisPacks Premium:</h3>
+
 Packs disponíveis em: &nbsp;`packs` na Plataforma:
 
 - Lite: Next.Js 15 + SaaS Boilerplate - base limpa para começar
@@ -37,9 +38,9 @@ Packs disponíveis em: &nbsp;`packs` na Plataforma:
 >
 > As Functions de entrega ficam no deploy: &nbsp;`--only functions`
 
-## Packs Disponíveis:
+<h2>Packs Disponíveis:</h2>
 
-### 🚀 DomisDocs Lite - &nbsp;R$49
+<h3>🚀 DomisDocs Lite - &nbsp;R$49</h3>
 
 **Next.Js 15 Starter - Fix essencial + Starter Next.Js 15 + Tailwind v4**
 
@@ -58,7 +59,7 @@ Entrega: Via PRO_KEY + &nbsp;`npm create domis@latest`
 
 ---
 
-### 💎 DomisDocs Pro - R$197
+<h3>💎 DomisDocs Pro - R$197</h3>
 
 **SaaS Completo Next.Js 15 - O que empresas cobram R$2.000**
 
@@ -76,7 +77,7 @@ Entrega: Via PRO_KEY + `npm create domis@latest`
 
 [💎 Ver Detalhes do Pro →](/packs/domisdocs-pro)
 
-## Comparativo:
+<h2>Comparativo:</h2>
 
 | Recurso | Lite R$49 | Pro R$197 |
 | :--- | :---: | :--- |
@@ -90,18 +91,21 @@ Entrega: Via PRO_KEY + `npm create domis@latest`
 | Headers Segurança | ❌ | ✅ |
 | Dashboard SaaS Premium | ❌ | ✅ |
 
-## Como funciona a entrega:
+<h2>Como funciona a entrega:</h2>
 
 ```
 1. Você paga na Kiwify (PIX ou Cartão)
-   ↓
+  ↓
 2. Recebe por e-mail sua PRO_KEY na hora
-   ↓
+  ↓
 3. Instala via CLI:
-   npm create domis@latest
 ```
 
-### Dúvidas Frequentes:
+```bash
+npm create domis@latest
+```
+
+<h3>Dúvidas Frequentes:</h3>
 
 - DomisDocs-Technical: Documentação Pública, Guias gratuitos, Vitrine - este site. 
 
@@ -109,7 +113,7 @@ Entrega: Via PRO_KEY + `npm create domis@latest`
 
 - Entrega Atual: Direta via PRO_KEY + &nbsp;`npm create domis@latest` após pagamento na Kiwify.
 
-## Mapa de Recursos da Plataforma:
+<h2>Mapa de Recursos da Plataforma:</h2>
 
 | Módulo | Documenta |
 | :--- | :--- |
@@ -120,6 +124,6 @@ Entrega: Via PRO_KEY + `npm create domis@latest`
 | Automação Kiwify + CLI | Webhook gera PRO_KEY automaticamente e libera download via CLI |
 | Troubleshooting e Boas Práticas | Erros reais de deploy (public, functions timeout, Node 22) resolvidos e documentados |
 
-## 🛡 Garantia
+<h2>🛡 Garantia</h2>
 
 > Todos os packs têm **7 dias de garantia incondicional** via Kiwify.
