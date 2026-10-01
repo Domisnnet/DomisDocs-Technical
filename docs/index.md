@@ -9,7 +9,7 @@ hero:
       text: "🚀 Documentação Técnica"
       link: /guia/
     - theme: brand
-      text: "🛒 DomiPacks"
+      text: "🛒 DomisPacks"
       link: /packs/
 features:
     - icon: 🚀
