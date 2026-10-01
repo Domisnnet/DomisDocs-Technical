@@ -2,7 +2,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "DomisDocs",
+  title: "DomisPacks",
   description: "Plataforma de Documentação Técnica — DomisDev | Guia: Angular 20 + Firebase Hosting",
   head: [ ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }] ],
   lang: 'pt-BR',
@@ -13,7 +13,7 @@ export default defineConfig({
     nav: [
       { text: 'Início', link: '/' },
       { text: '📖 Documentação Técnica', link: '/guia/' },
-      { text: '🛒 DomisDocs Packs', link: '/packs/' },
+      { text: '🛒 DomisPacks', link: '/packs/' },
       {
         text: '🔗 Links',
         items: [
