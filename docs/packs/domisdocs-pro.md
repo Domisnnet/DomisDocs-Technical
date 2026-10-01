@@ -1,5 +1,5 @@
 ---
-title: DomisDocs Pro - Produção Completa
+title: DomisDocs Pro - Produção Completa - Em desenvolvimento
 description: SaaS Boilerplate Next.Js 15 + SaaS Boilerplate + Stripe + Rules + CI/CD + Dashboard.
 next:
   text: 'Vitrine - &nbsp;Todos os Packs'
@@ -13,7 +13,7 @@ prev:
 SaaS Boilerplate completo. Deploy seguro com regras validadas, CI/CD, SSR e Stripe Checkout. Inclui tudo do Lite + produção real.
 :::
 
-<h1>💎 DomisDocs Pro - R$197</h1>
+<h1>💎 DomisDocs Pro - R$197 - EM DESENVOLVIMENTO</h1>
 
 > Do `ng new` ao deploy em produção com regras seguras, CI/CD, SSR e Stripe. 
 >
@@ -27,7 +27,7 @@ SaaS Boilerplate completo. Deploy seguro com regras validadas, CI/CD, SSR e Stri
 
 <h2>Lite vs Pro - Referência Documental:</h2>
 
-| O que você precisa em produção | Lite R$49 | Pro R$197 |
+| O que você precisa em produção | Lite R$49 | Pro R$197 Em Breve |
 | :--- | :---: | :--- |
 | Fix public directory + 404 SPA | ✅ | ✅ |
 | Cache 1 ano + Compressão | ✅ | ✅ |
@@ -35,9 +35,9 @@ SaaS Boilerplate completo. Deploy seguro com regras validadas, CI/CD, SSR e Stri
 | firestore.rules seguro (prod) | ❌ | ✅ avançada |
 | storage.rules seguro (prod) | ❌ | ✅ avançada |
 | GitHub Actions - Auto Deploy | ❌ | ✅ |
-| Cloud Functions - kiwifyWebhook, verifyProKey, ping | ❌ | ✅ Node 22 |
+| Cloud Functions - kiwifyWebhook, verifyProKey, ping | ❌ | ✅ Node 22 - getSignedUrl 5min |
 | Stripe Checkout + Webhook + Customer Portal | ❌ | ✅ |
-| Headers de Segurança HSTS, CSP | ❌ | ✅ |
+| Headers de Segurança HSTS, CSP | ✅ | ✅ |
 | Dashboard SaaS Premium | ❌ | ✅ |
 
 <h2>O que vem no Pro:</h2>

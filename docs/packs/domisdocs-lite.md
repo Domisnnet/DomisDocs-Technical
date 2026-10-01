@@ -2,7 +2,7 @@
 title: DomisDocs Lite - Next.Js 15 Starter
 description: Boilerplate Next.Js 15 + SaaS Boilerplate
 next:
-  text: "💎 DomisDocs Pro - &nbsp;R$197"
+  text: "💎 DomisDocs Pro - &nbsp;R$197 - Em Breve"
   link: "/packs/domisdocs-pro"
 prev:
   text: "Vitrine - &nbsp;Todos os Packs"
@@ -35,9 +35,9 @@ prev:
 - Next.Js 15 + App Router + Turbopack
 - Tailwind CSS v4 + shadcn/ui
 - Firebase Hosting Frameworks + firebase.json otimizado
-- rewrites SPA + headers otimizados
+- Headers otimizados - **sem rewrites SPA**
 
-<h3>O que vem no Lite:</h3>
+<h3>O que vem no Lite?</h3>
 
 ```bash
 templates/domisdocs-lite/
@@ -46,36 +46,32 @@ templates/domisdocs-lite/
 │   ├── components/
 │   ├── lib/
 │   └── assets/
-├── firebase.json → public: "out" + rewrites + headers
-├── .firebaserc  → básica validada
-├── firestore.rules  → básica validada
+├── firebase.json → Frameworks (source: ".") + headers
+├── .firebaserc
 ├── next.config.ts  → otimizado Firebase
 ├── postcss.config.mjs  → v4 configurado
 ├── package.json
 ```
-> No Pack: Pro , são mais pastas disponíveis.
 
-<h3>firebase.json de referência:</h3>
+<h3><code>firebase.json</code> do Pack Lite:</h3>
 
 ```json
 {
   "hosting": {
-    "public": "out",
+    "source": ".",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-    "rewrites": [{ "source": "**", "destination": "/index.html" }],
     "headers": [
       {
         "source": "**/*.@(js|css|woff2|png|jpg|jpeg|gif|svg|webp|ico)",
-        "headers": [ 
-          { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" } 
-        ]
+        "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
       },
       {
         "source": "**",
         "headers": [
           { "key": "X-Content-Type-Options", "value": "nosniff" },
           { "key": "X-Frame-Options", "value": "DENY" },
-          { "key": "X-XSS-Protection", "value": "1; mode=block" }
+          { "key": "X-XSS-Protection", "value": "1; mode=block" },
+          { "key": "Strict-Transport-Security", "value": "max-age=31536000; includeSubDomains" }
         ]
       }
     ]
@@ -83,10 +79,11 @@ templates/domisdocs-lite/
 }
 ```
 
-Resolve:
+<h4>Resolve:</h4>
 
 - Error: Could not find public directory
 - Error: 404 on refresh - página não encontrada ao dar F5
+
 
 <h2>Instalação - Referência Documental:</h2>
 
@@ -112,15 +109,6 @@ npm create domis@latest
 ```
 
 <h4>O CLI valida a key, baixa o ZIP e monta a pasta:</h4>
-
-- Cola a PRO_KEY
-- Define o nome do projeto
-
-> Ou:
-
-```
-✔ 🔥 DomisDocs PRO — Stripe + Rules
-```
 
 - Cola a PRO_KEY
 - Define o nome do projeto
@@ -156,22 +144,23 @@ npm create domis@latest
 
 <h2>FAQ - Lite</h2>
 
-::: details Funciona no Next.Js 15 com App Router?
-Sim. Validado no Next.Js 15 com App Router + Turbopack. O firebase.json já vem otimizado para Firebase Hosting Frameworks.
+::: details Funciona no Next.Js 15 com App Router ❓
+Sim. Validado no `Next.Js 15` com App Router + Turbopack. O `firebase.json` já vem com source: "." para Frameworks.
 :::
 
-::: details Como recebo o acesso?
-Você paga na Kiwify e recebe sua PRO_KEY por e-mail na hora. Depois é só rodar `npm create domis@latest` e digitar a key.
+::: details Como recebo o acesso ❓
+Você paga na Kiwify e recebe sua PRO_KEY por e-mail na hora , junto com o acesso a Plataforma da Kiwify.
 :::
 
-::: details O que acontece depois que eu pagar?
-1. Kiwify envia PRO_KEY na hora
-2. Você roda `npm create domis@latest`
-3. Digita a PRO_KEY e o template é baixado
+::: details O que acontece depois que eu pagar ❓
+- 1. Kiwify envia PRO_KEY na hora
+- 2. Você roda `npm create domis@latest`
+- 3. Digita a PRO_KEY e o template é baixado
 :::
 
-::: details Qual a diferença para o Pro?
-Lite = Next.Js 15 Starter + deploy otimizado (firebase.json + rewrites). Pro = Lite + firestore.rules + storage.rules + CI/CD + Stripe + Kiwify Webhook + Dashboard SaaS.
+::: details Qual a diferença para o Pro ❓
+- Lite = `Next.Js 15 Starter` + deploy otimizado: `firebase.json` + `rewrites`. 
+- Pro = Lite + `firestore.rules` + `storage.rules` + `CI/CD` + `Stripe` + `Kiwify Webhook` + `Dashboard SaaS`
 :::
 
 <h2>Comparativo:</h2>
@@ -297,12 +286,12 @@ Lite = Next.Js 15 Starter + deploy otimizado (firebase.json + rewrites). Pro = L
     font-size: 12px; 
     margin-top: 16px; 
     font-weight: 700;"
-  > ⚡ Entrega automática via PRO_KEY por e-mail após pagamento</p>
+  > ⚡️ Entrega automática via PRO_KEY por e-mail após pagamento</p>
 </div>
 &nbsp;
 
 ::: tip Quer produção completa?
-Conheça o Pro R$197 com Rules + CI/CD + Stripe + Dashboard. 
+Conheça o Pro R$197 ( EM BREVE ) com Rules + CI/CD + Stripe + Dashboard. 
 > Veja em [DomisDocs Pro →](/packs/domisdocs-pro)
 :::
 
