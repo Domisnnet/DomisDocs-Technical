@@ -164,67 +164,22 @@ firebase emulators:start --only firestore,storage
 
 <h2>FAQ:</h2>
 
-::: details Preciso do Lite antes?
+::: details Preciso do Lite antes ❓
 Não. O Pro já inclui tudo do Lite. Lite é porta de entrada. Se vai para produção com cliente, vá direto de Pro.
 :::
 
-::: details Funciona com Angular Universal SSR?
+::: details Funciona com Angular Universal SSR ❓
 Sim. A pasta functions/ já vem com adapter Angular Universal. No README_PRO.md tem ng add @angular/ssr. No Next.Js 15 SSR já vem configurado.
 :::
 
-::: details As Rules são seguras mesmo?
+::: details As Rules são seguras mesmo ❓
 Sim. Seguem checklist oficial Firebase. Nenhum if true. Teste com emulators antes.
 :::
 
-::: details Cliente já tem projeto Firebase?
+::: details Cliente já tem projeto Firebase ❓
 Perfeito. O Pro não cria projeto novo, só injeta .rules e firebase.json otimizado. Roda firebase deploy e pronto.
 :::
 
-<h2>💬 Quem usa o Pro em produção diz:</h2>
-
-<div style="
-  margin: 32px 0; 
-  padding: 28px; 
-  background: rgba(255,255,255,0.03); 
-  border-radius: 16px; 
-  border: 1px solid rgba(38,255,0,0.15);"
->
-  <div style="display: flex; gap: 16px; align-items: flex-start;">
-    <div style="
-      display: flex; 
-      align-items: center; 
-      justify-content: center; 
-      width: 48px; 
-      height: 48px; 
-      border-radius: 50%; 
-      background: linear-gradient(135deg, #26FF00, #00D4FF); 
-      font-weight: 800; 
-      color: #000; 
-      flex-shrink: 0;"
-    > F</div>
-      <div style="flex: 1;">
-      <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap;">
-      <span style="font-weight: 700; font-size: 16px; color: #fff;">Fernanda L.</span>
-      <span style="font-size: 13px; opacity: 0.6;">· Tech Lead · Agência em Curitiba</span>
-      <span style="margin-left: auto; color: #FFD700;">★★★★★</span>
-      </div>
-        <p style="
-          font-size: 15px; 
-          line-height: 1.6; 
-          margin: 12px 0; 
-          font-style: italic; 
-          color: #e5e7eb;"
-        >
-          "Comprei o Lite para um projeto pessoal e depois peguei o Pro para o projeto de um cliente. O que me conquistou e surpreendeu foi o <code>firestore.rules</code> seguro e o GitHub Actions. Antes eu deixava <code>allow read, write: if true</code> e morria de medo de vazar dados. Agora o deploy é <code>git push</code> e o SSR já deixa o Lighthouse em 94. Economizei R$1.200 que um freela cobrou para fazer isso.     "
-        </p>
-        <div style="display: flex; gap: 12px; margin-top: 12px; font-size: 12px; opacity: 0.5; flex-wrap: wrap;">
-        <span>✅ Compra verificada na Kiwify</span>
-        <span>·</span>
-        <span>📅 Há 5 dias</span>
-      </div>
-    </div>
-  </div>
-</div>
 
 <h2>💎 Comprar DomisDocs Pro - R$199</h2>
 
@@ -278,11 +233,6 @@ Perfeito. O Pro não cria projeto novo, só injeta .rules e firebase.json otimiz
   > 📦 Botão desabilitado até  finalizar Stripe + Functions Node 22
   </p>
 </div>
-
-&nbsp;
-::: tip Já comprou o Lite?
-> Envie comprovante do Lite e ganhe cupom de R$49 OFF. Paga só a diferença para o Pro.
-:::
 
 <h2>🛡 Garantia</h2>
 
