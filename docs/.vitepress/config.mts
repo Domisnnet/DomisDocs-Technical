@@ -9,11 +9,11 @@ export default defineConfig({
   base: '/',
   themeConfig: {
     outline: { level: [2, 3], label: 'Nesta página' },
-    logo: '/images/DomisDev.png',
+    logo: '/images/premium-512.png',
     nav: [
       { text: 'Início', link: '/' },
       { text: '📖 Documentação Técnica', link: '/guia/' },
-      { text: '🛒 DomisDocs Packs Premium', link: '/packs/' },
+      { text: '🛒 DomisDocs Packs', link: '/packs/' },
       {
         text: '🔗 Links',
         items: [
